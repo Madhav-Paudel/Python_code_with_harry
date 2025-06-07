@@ -10,6 +10,7 @@
 # here is string slicing 
 name="Madhav paudel"
 # if i want only madhav then 
+
 first_name=name[0:6] #here[starting=0;end=6]
 
 print(first_name)
@@ -25,3 +26,12 @@ print(name[5:11])
 # name1="harry"
 # print(name1[-4:-1])
 # print(name1[1:4])
+test="Madhav"
+print(test[-5:-1])
+
+print(test[1:5])
+# slicing 
+a="0123456789"
+a1=a[0:5:3]
+print(f"{a1}")
+
